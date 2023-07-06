@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/ccs_files/login.css">
+</head>
+<body>
+  <div class="container-login">
+    <div class="container">
+
+      <div class="login">
+  
+        <section class="titulo">
+          <img src="./assets/images/log-in.svg" alt="icone de porta">
+          <h1>Faça seu Login</h1>
+        </section>
+        
+        <p class="info">Entre com suas informações de cadastro.</p>
+  
+        <Form action="./fintechApp.html">
+  
+          <label for="email">E-mail</label>
+          <section class="email">
+            <input type="email" name="email"
+              class="input"
+              placeholder="Digite seu e-mail" 
+              pattern="+@+" 
+              title="nome@seudominio.com" 
+              required>
+          </section>
+          
+          <label for="senha" class="lbsenha">Senha</label>
+          <section class="senha">
+            <input type="password" name="password" class="input" placeholder="Digite sua senha" required>
+          </section>
+          
+          <div class="checkbox">
+            
+            <div class="lembre-me">
+              <input type="checkbox">
+              <p>Lembre-me</p>
+            </div>
+  
+            <div class="esqueci">
+              <a href="http://https://www.google.com/" target="_blank" rel="">
+                <p>Esqueci minha Senha</p>
+              </a>
+            </div>
+          </div>
+  
+          <div class="botao">
+              <button type="submit">entrar</button>
+          </div>
+  
+          <div class="registre">
+            <a href="./cadastro.html" target="_blank">
+              <p>Não tem uma conta? <strong>Registre-se</strong></p>
+            </a>
+          </div>
+  
+        </Form>
+  
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="imagem"></div>
+</body>
+</html>
