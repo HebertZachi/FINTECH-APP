@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+
+</head>
+<body>
+  <div class="container-login">
+    <div class="logo">
+      <img src="./../assets/images/logo-pig.svg" alt="">
+      <span>PIGGY.FY</span>
+    </div>
+
+    <div class="container">
+      <div class="login">
+  
+        <section class="titulo">
+          <img src="./../assets/images/log-in.svg" alt="icone de porta">
+          <h1>Faça seu Login</h1>
+        </section>
+        
+        <p class="info">Entre com suas informações de login.</p>
+  
+        <Form action="home.html" method="post">
+  
+          <label for="email">E-mail</label>
+          <section class="email">
+            <input type="email" name="email"
+              class="input"
+              placeholder="Digite seu e-mail" 
+              pattern="+@+" 
+              title="nome@seudominio.com" 
+              required>
+          </section>
+          
+          <label for="senha" class="lbsenha">Senha</label>
+          <section class="senha">
+            <input type="password" name="password" class="input" placeholder="Digite sua senha" required>
+          </section>
+          
+          <div class="checkbox">
+            
+            <div class="lembre-me">
+              <input type="checkbox">
+              <p>Lembre-me</p>
+            </div>
+  
+            <div class="esqueci">
+              <a href="http://https://www.google.com/" target="_blank" rel="">
+                <p>Esqueci minha Senha</p>
+              </a>
+            </div>
+          </div>
+  
+          <div class="botao">
+              <button type="">entrar</button>
+          </div>
+  
+          <div class="registre">
+            <a href="./cadastro.html">
+              <p>Não tem uma conta? <strong>Registre-se</strong></p>
+            </a>
+          </div>
+  
+        </Form>
+  
+      </div>
+    </div>
+  </div>
+  
+  <img src="https://images.unsplash.com/photo-1692858180214-c76c1b5d3cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Imagem de um banco ao lado do fomulário de login">
+  <!-- <div class="imagem"></div> -->
+</body>
+</html>

@@ -3,24 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./assets/ccs_files/login.css">
+  <title>Login</title>
 </head>
 <body>
   <div class="container-login">
+    <div class="logo">
+      <img src="./../assets/images/logo-pig.svg" alt="">
+      <span>PIGGY.FY</span>
+    </div>
     <div class="container">
 
-      <div class="login">
+      <div class="cadastro">
   
         <section class="titulo">
-          <img src="./assets/images/log-in.svg" alt="icone de porta">
-          <h1>Faça seu Login</h1>
+          <h1>Faça seu Cadastro</h1>
         </section>
         
-        <p class="info">Entre com suas informações de cadastro.</p>
+        <p class="info">Registre suas informações de cadastro.</p>
   
-        <Form action="./fintechApp.html">
+        <Form action="login.html">
   
+          <label for="Nome" class="lbNome">Nome</label>
+          <section class="Nome">
+            <input type="text" name="Nome" class="input" placeholder="Digite seu Nome" required>
+          </section>
+
+          <label for="CPF" class="lbCPF">CPF</label>
+          <section class="CPF">
+            <input type="text" name="cpf" class="input" placeholder="Digite seu CPF" required>
+          </section>
+
+
           <label for="email">E-mail</label>
           <section class="email">
             <input type="email" name="email"
@@ -36,18 +49,7 @@
             <input type="password" name="password" class="input" placeholder="Digite sua senha" required>
           </section>
           
-          <div class="checkbox">
-            
-            <div class="lembre-me">
-              <input type="checkbox">
-              <p>Lembre-me</p>
-            </div>
-  
-            <div class="esqueci">
-              <a href="http://https://www.google.com/" target="_blank" rel="">
-                <p>Esqueci minha Senha</p>
-              </a>
-            </div>
+
           </div>
   
           <div class="botao">
@@ -55,18 +57,17 @@
           </div>
   
           <div class="registre">
-            <a href="./cadastro.html" target="_blank">
-              <p>Não tem uma conta? <strong>Registre-se</strong></p>
+            <a href="./login.html" >
+              <p>Já tem uma conta?<strong> Faça Login</strong></p>
             </a>
           </div>
-  
+
         </Form>
-  
       </div>
     </div>
   </div>
   
-
-  <div class="imagem"></div>
+  <img src="./../assets/images/tan-kaninthanond-hdak5568ts4-unsplash.jpg" alt="Imagem de um banco ao lado do fomulário de Cadastro">
+  <!-- <div class="imagem"></div> -->
 </body>
 </html>
