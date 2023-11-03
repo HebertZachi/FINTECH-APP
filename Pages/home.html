@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-  <title>Document</title>
+  <link rel="stylesheet" href="./../assets/css_files/Private-SideMenu.css">
+  <link rel="stylesheet" href="./../assets/css_files/PrivateNavbar.css">
+  <title>Home</title>
 </head>
 <body>
   <!-- Conteúdo da página -->
@@ -12,27 +14,28 @@
 
     <!-- Menu de Navegação -->
     <nav>
+      <section class="container-pesquisa">
+        <input type="text" name="Pesquisa" class="input-pesquisa" placeholder="Pesquise aqui..." required>
+        <img class="img-pesquisa" src="./../assets/images/search.svg" alt="Imagem de uma lupa">
+      </section>
       <!-- notification -->
-      <div class="notification">
+      <section class="notification">
         <span class="material-icons-sharp">
           notifications
         </span>
-      </div>
-      <section class="Pesquisa">
-        <input type="text" name="Pesquisa" class="input" placeholder="Pesquise aqui..." required>
-        <img src="./../assets/images/search.svg" alt="Imagem de uma lupa">
       </section>
     </nav>
 
     <!-- Menu Lateral -->
     <aside>
-  
-      <div class="logo">
-        <img src="./../assets/images/logo-pig.svg" alt="">
-        <span>PIGGY.FY</span>
-      </div>
+      <section class="logo">
+        <a href="./home.html">
+          <img src="./../assets/images/logo-pig.svg" alt="logo do porquinho">
+          <span>PIGGY.FY</span>
+        </a>
+      </section>
 
-      <div class="side-links">
+      <section class="side-links">
 
         <ul>
           <li>
@@ -70,10 +73,10 @@
           </li>
         </ul>
   
-      </div>
+      </section>
   
   
-      <div class="logout">
+      <section class="logout">
           <a href="./login.html">
             <button>
               <img src="./../assets/images/log-in.svg" alt="icone de login">
@@ -81,17 +84,20 @@
             </button>
           </a>
         <!-- <button type="button" class="btn btn-outline-danger">Logout</button> -->
-      </div>
+      </section>
   
-      <div class="Perfil">
+      <section class="perfil">
         <a href="">
-          <img src="./../assets/images/imagem_de_perfil.svg" alt="Imagem de Perfil">
-          <span>João Brito</span>
-          <span>ver Perfil</span>
-          <img src="./../assets/images/dot_menu_vertical.svg" alt="Bolinhas do menu do perfil">
+          
+          <img class="foto-perfil" src="./../assets/images/imagem_de_perfil.svg" alt="Imagem de Perfil">
+          <div>
+            <span class="nome-usuario">João Brito</span>
+            <span class="ver-perfil" >ver Perfil</span>
+          </div>
+          <img  class="pontinhos" src="./../assets/images/dot_menu_vertical.svg" alt="Bolinhas do menu do perfil">
         </a>
         <!-- <button type="button" class="btn btn-outline-danger">Logout</button> -->
-      </div>
+      </section>
     </aside>
 
     <main>

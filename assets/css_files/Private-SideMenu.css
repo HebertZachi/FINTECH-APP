@@ -1,0 +1,134 @@
+ul {
+  list-style: none;
+}
+
+aside {
+  background-color: #191919;;
+  height: 100vh;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+
+  & .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 50px;
+    margin-top: 50px;
+    color: #ECEBEB;
+    font-size: 24px;
+    gap: 10px;
+  }
+
+  /* opções do menu */
+  & .side-links {
+    margin-top: 60px;
+
+    & ul {
+      background-color: pink;
+      height: 350px;
+    }
+
+    & ul li {
+      background-color: blue;
+      margin-bottom: 20px;
+
+    }
+
+    & ul li a {
+      display: flex;
+      width: 230px;
+      height: 50px;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+
+      & span {
+        color: #ECEBEB;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.24px;
+      }
+    }
+  }
+
+  /* botão de logout */
+  & .logout {
+    
+
+    & a button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 50px;
+      padding: 12px 24px;
+      gap: 5px;
+      cursor: pointer;
+
+      background: #CA1D27;
+      border: none;
+
+      & span {
+        color: #ECEBEB;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.24px;
+      }
+    }
+  }
+
+  & .perfil a {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 230px;
+    height: 50px;
+    padding: 12px 0px 12px 12px;
+    gap: 5px;
+    background: green;
+    justify-content: space-between;
+
+    & .foto perfil {
+      border: none;
+    }
+
+    & div {
+      display: flex;
+      flex-direction: column;
+      
+      & .nome-usuario {
+        color: #ECEBEB;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      
+      & .ver-perfil {
+        color: #BABABA;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+    }
+
+    /* & .pontinhos {
+      display: flex;
+      justify-content: flex-start;
+    } */
+  }
+} 
