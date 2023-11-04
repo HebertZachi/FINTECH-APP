@@ -24,7 +24,7 @@ aside {
     gap: 10px;
   }
 
-  /* opções do menu */
+  /* MENU OPTIONS */
   & .side-links {
     margin-top: 60px;
 
@@ -59,9 +59,10 @@ aside {
     }
   }
 
-  /* botão de logout */
+
+  /* LOGOUT BUTTON */
   & .logout {
-    
+    margin-top: 310px;
 
     & a button {
       display: flex;
@@ -88,10 +89,15 @@ aside {
     }
   }
 
+
+  /* USER PROFILE */
+  & .perfil {
+    margin-top: 30px;
+  }
+
   & .perfil a {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     width: 230px;
     height: 50px;
     padding: 12px 0px 12px 12px;
@@ -125,10 +131,5 @@ aside {
         line-height: normal;
       }
     }
-
-    /* & .pontinhos {
-      display: flex;
-      justify-content: flex-start;
-    } */
   }
 } 
