@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,40 +8,45 @@ a {
   text-decoration: none;
 }
 
-body {
+.container {
+  display: flex;
   height: 100vh;
+}
+
+.content {
+  width: 100%;
+  overflow: auto;
 }
 
 nav {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
   height: 5rem;
   gap: 10px;
-  background-color: aqua;
+  background: #1a202c;
 }
+
 
 .notification {
   & span {
     font-size: 28px;
-    color: #E7E6E6;
+    color: #e7e6e6;
   }
 }
 
 .container-pesquisa {
   display: flex;
   align-items: center;
-  /* position: relative; */
   border-radius: 10px;
   background-color: #fff;
   margin-right: 70px;
-  /* border: 1px solid black; */
 
   & .input-pesquisa {
     border: none;
     border-radius: 10px 0px 0px 10px;
     padding: 12px 80px 12px 16px;
-    /* border-right: 1px solid black; */
 
     &:focus {
       border: none;
@@ -53,6 +58,5 @@ nav {
     width: 24px;
     margin: 0.5rem 1rem;
     cursor: pointer;
-
   }
 }
