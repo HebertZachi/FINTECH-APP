@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./../assets/css/login.css">
-  <link rel="stylesheet" href="./../assets/css/login-image.css">
+  <link rel="stylesheet" href="./../assets/css/cadastro-image.css"
 </head>
 <body>
   <!--
@@ -44,12 +44,22 @@
  
         <section class="titulo">
           <img src="./../assets/images/log-in.svg" alt="icone de porta">
-          <h1>Faça seu Login</h1>
+          <h1>Faça seu Cadastro</h1>
         </section>
         
         <p class="info">Entre com suas informações de cadastro.</p>
   
         <Form action="./fintechApp.html">
+            <label for="Nome" class="lbNome">Nome</label>
+          <section class="Nome">
+            <input type="text" name="Nome" class="input" placeholder="Digite seu Nome" required>
+          </section>
+
+          <label for="CPF" class="lbCPF">CPF</label>
+          <section class="CPF">
+            <input type="text" name="cpf" class="input" placeholder="Digite seu CPF" required>
+          </section>
+
   
           <label for="email">E-mail</label>
           <section class="email">
@@ -91,6 +101,7 @@
           </div>
   
         </Form>
+        
   
       </div>
     </div>

@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-  <title>Document</title>
-  <style>
-    footer{
-      background-color: aqua;
-    }
-  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../assets/css/navbar.css" />
+    <link rel="stylesheet" href="./../assets/css/main.css" />
+    <title>Document</title>
+    <style>
+      footer {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Conteúdo da página -->
+    <header class="header">
+      <div class="header-logo">
+        <a href="#" class="logo">
+          <img src="./../assets/images/logo-pig.svg" alt="logo bank" />
+          PIGGY.FY
+        </a>
+      </div>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
 
-</head>
-<body>
-  <!-- Conteúdo da página -->
-  <div class="container"></div>
-      <nav>
+      <nav class="navbar">
+        <a href="#" style="--i: 0">Sobre</a>
+        <a href="#" style="--i: 1">Contato</a>
+        <a href="#" style="--i: 2">Blogs</a>
+        <a href="./login.html" style="--i: 3" class="header-login">Login</a>
+        <a href="./cadastro.html" style="--i: 4" class="header-criar"
+          ><span class="header-criar-span">Criar conta</span></a
+        >
+      </nav>
+    </header>
+
+    <!-- <nav>
 
         <div class="logo">
           <img src="./../assets/images/logo-pig.svg" alt="">
@@ -29,7 +60,7 @@
               <a href="">
                 <span>Sobre</span>
               </a>
-            </li>
+             </li>
 
             <li>
               <a href="">
@@ -61,35 +92,140 @@
               </a>
             </li>
 
-          </ul>
+          </ul> 
+          <a class="header-b" href="./cadastro.html">
+            <button>Abra sua conta</button>
+          </a>
         </section>
-
-
-      </nav>
+       
+      </nav>-->
 
     <main>
-      <span class="titulo-texto-lading-page">
-        Simple, Transparent, and Affordable Global Transactions
-      </span>
-
-      <span class="lading-page-descricao-texto">
-        Say goodbye to long wait times and expensive fees. Our hassle-free platform lets you send money to loved ones, pay bills, and make purchases from anywhere in the world. Trust us to handle your transfers securely and efficiently.
-      </span>
-
-      <a href="./cadastro.html">
-        <button>Abra sua conta</button>
-      </a>
-
-      <img src="" alt="Imagem da interface do app">
+      <div class="content-main">
+        <section class="conta">
+          <div class="text-content">
+            <span class="titulo-texto-lading-page">
+              Simple, Transparent, and Affordable Global Transactions
+            </span>
+            <br/>
+            <span class="lading-page-descricao-texto">
+              Say goodbye to long wait times and expensive fees. Our hassle-free
+              platform lets you send money to loved ones, pay bills, and make
+              purchases from anywhere in the world. Trust us to handle your
+              transfers securely and efficiently.
+            </span>
+            <div class="buttons">
+              <div class="bottom1"><a href="#">Send money</a></div>
+              <div class="bottom2"><a href="#">Open an account</a></div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img
+              src="./../assets/images/hero-image.png"
+              alt="Imagem da interface do app"
+            />
+          </div>
+        </section>
+      </div>
+      <div class="images-content">
+        <img
+          src="./../assets/images/Quartzlogo.png"
+          alt="Imagem logo da empresa Quartz"
+        />
+        <img
+          src="./../assets/images/Bloomberg_Logo.png"
+          alt="Imagem logo da empresa Bloomberg"
+        />
+        <img
+          src="./../assets/images/CNBC_Logo.png"
+          alt="Imagem logo da empresa CNBC"
+        />
+        <img
+          src="./../assets/images/Forbes_logo.png"
+          alt="Imagem logo da empresa Forbes"
+        />
+        <img
+          src="./../assets/images/TC_logo.png"
+          alt="Imagem logo da empresa TC"
+        />
+      </div>
+      <div class="funcionalidades">
+        <section class="text-funcionalidades">
+          <h2>Our features</h2>
+          <p>
+            With our user-friendly interface, you can initiate a transfer in
+            just a few clicks. Our system uses the latest encryption technology
+            to ensure your personal and financial information is kept safe and
+            secure. Plus, our competitive exchange rates mean you get the most
+            for your money.
+          </p>
+        </section>
+        <br />
+        <section class="cards">
+          <div class="card-1">
+            <h2>International Transferer</h2>
+            <p>
+              We're committed to making international payments fast, affordable,
+              and hassle-free for everyone, from small business owners to large
+              enterprises.
+            </p>
+          </div>
+          <div class="card-2">
+            <h2>International Transferer</h2>
+            <p>
+              We're committed to making international payments fast, affordable,
+              and hassle-free for everyone, from small business owners to large
+              enterprises.
+            </p>
+          </div>
+          <div class="card-3">
+            <h2>International Transferer</h2>
+            <p>
+              We're committed to making international payments fast, affordable,
+              and hassle-free for everyone, from small business owners to large
+              enterprises.
+            </p>
+          </div>
+         
+        </section> 
+        <div class="mul-funcionalidades">
+          <h2>Multiple Features we Offer</h2>
+          <div class="mul-conteiner">
+            <div class="image-container">
+              <img src="./../assets/images/cell-back.png" alt="celular">
+            </div>
+            <div class="mul-cards">
+              <div class="mul-card">
+                <img src="./../assets/images/refresh-circle.png" alt="Circular">
+                <h3>Global Currency Exchange</h3>
+                <p>Convert your money into the currency of your choice with competitive exchange rates Read More...</p>
+              </div>
+              <div class="mul-card">
+                <img src="./../assets/images/refresh-circle.png" alt="Circular">
+                <h3>Global Currency Exchange</h3>
+                <p>Convert your money into the currency of your choice with competitive exchange rates Read More...</p>
+              </div>
+              <div class="mul-card">
+                <img src="./../assets/images/refresh-circle.png" alt="Circular">
+                <h3>Global Currency Exchange</h3>
+                <p>Convert your money into the currency of your choice with competitive exchange rates Read More...</p>
+              </div>
+              <div class="mul-card">
+                <img src="./../assets/images/refresh-circle.png" alt="Circular">
+                <h3>Global Currency Exchange</h3>
+                <p>Convert your money into the currency of your choice with competitive exchange rates Read More...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    
-    <footer>
-      <img src="./../assets/images/Quartzlogo.png" alt="Imagem logo da empresa Quartz">
-      <img src="./../assets/images/Bloomberg_Logo.png" alt="Imagem logo da empresa Bloomberg">
-      <img src="./../assets/images/CNBC_Logo.png" alt="Imagem logo da empresa CNBC">
-      <img src="./../assets/images/Forbes_logo.png" alt="Imagem logo da empresa Forbes">
-      <img src="./../assets/images/TC_logo.png" alt="Imagem logo da empresa TC">
-    </footer>
+    <section class="imagem-business">
+        <img src="./../assets/images/Get-in-touch.png" alt="Imagem">
+      <section>
 
+    <footer>
+       alsdjfa
+    </footer>
   </body>
-  </html>
+</html>

@@ -1,0 +1,194 @@
+.content-main {
+    background-color: rgb(25, 25, 25);
+    margin-top:81px;
+    
+}
+
+.content-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.conta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.text-content {
+  padding: 20px;
+  color: #fff;
+}
+
+.titulo-texto-lading-page {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.lading-page-descricao-texto {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.bottom1 {
+  padding: 10px 20px;
+  background-color: #FFF;
+  color: #FFF;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bottom2 {
+  padding: 10px 20px;
+  background-color: rgb(25, 25, 25) ;
+  color: #FFF;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom1 a {
+    color: #000;
+    text-decoration: none;
+}
+.bottom2 a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.image-content {
+  text-align: right;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
+.images-content {
+  background-color: rgb(155, 155, 155);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center; /* Centralize as imagens horizontalmente */
+  text-align: center; /* Centralize o texto no centro */
+}
+
+.images-content img {
+  display: flex;
+  
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.funcionalidades {
+  height: 350px;
+  background-image: url(./../images/Map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column; /* Configuração para uma coluna */
+  align-items: center; /* Alinhar horizontalmente no centro */
+}
+
+.text-funcionalidades {
+  padding: 20px;
+  width: 50% ;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around; /* Espaçamento igual entre os cartões */
+  margin-top: 25px ;
+
+}
+
+.card-1, .card-2, .card-3 {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Estilos gerais para telas maiores que 992px */
+/* Estilos gerais para telas maiores que 768px */
+.mul-funcionalidades {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image-container img{
+  width: 80%;
+}
+.mul-conteiner {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mul-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.mul-card {
+  border: 1px solid #ccc; /* Adicione bordas aos cards */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /* Defina a largura desejada para os cards */
+}
+
+/* Estilos específicos para telas menores que 992px */
+@media (max-width: 992px) {
+  .mul-conteiner {
+    flex-direction: column; /* Altera para uma coluna quando a tela for menor */
+    align-items: center; /* Centraliza os elementos na coluna */
+  }
+
+  .mul-card {
+    width: 100%; /* Ocupa toda a largura disponível */
+  }
+}
+/* Estilos específicos para telas menores que 768px */
+@media (max-width: 768px) {
+  .mul-funcionalidades {
+    align-items: center; /* Centraliza os elementos na coluna */
+  }
+
+  .mul-card {
+    width: 80vw; /* Ocupa toda a largura disponível */
+  }
+  .image-container img {
+  }
+}
+@media (max-width: 576px) {
+  .mul-funcionalidades {
+    align-items: center; /* Centraliza os elementos na coluna */
+  }
+
+  .mul-card {
+    width: 80vw; /* Ocupa toda a largura disponível */
+  }
+}
+
+
+@media (max-width: 992px) {
+  .conta {
+    grid-template-columns: 1fr;
+  }
+
+  .image-content {
+    text-align: center;
+  }
+}
